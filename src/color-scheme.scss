@@ -25,3 +25,10 @@ $gradient-bottom-right: linear-gradient(135deg, #ff8b43ff, #04100eff, #37d2b0ff,
 $gradient-top-left: linear-gradient(225deg, #ff8b43ff, #04100eff, #37d2b0ff, #acecd9ff, #ffffffff);
 $gradient-bottom-left: linear-gradient(315deg, #ff8b43ff, #04100eff, #37d2b0ff, #acecd9ff, #ffffffff);
 $gradient-radial: radial-gradient(#ff8b43ff, #04100eff, #37d2b0ff, #acecd9ff, #ffffffff);
+
+/* Light Scheme */
+$background-color: $white;
+$font-color: $rich-black-fogra;
+$primary-color: $caribbean-green;
+$secondary-color: $magic-mint;
+$markup-color: $mango-tango;

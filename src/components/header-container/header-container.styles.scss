@@ -12,18 +12,18 @@
     display: block;
     padding: 0 20px;
     font-size: 125%;
-    color: $caribbean-green;
+    color: $primary-color;
     &:hover {
         animation: hoverlink 0.25s;
-        color: $mango-tango;
+        color: $markup-color;
     }
 }
 
 @keyframes hoverlink {
     from {
-        color: $caribbean-green
+        color: $primary-color;
     }
     to {
-        color: $mango-tango;
+        color: $markup-color;
     }
 }

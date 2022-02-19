@@ -2,11 +2,12 @@
 
 * {
   box-sizing: border-box;
+  background-color: $background-color;
 }
 
 .App {
   text-align: center;
-  color: $rich-black-fogra;
+  color: $font-color;
 }
 
 body {
@@ -16,6 +17,6 @@ body {
 }
 
 a {
-  color: $caribbean-green;
+  color: $primary-color;
   text-decoration: none;
 }
