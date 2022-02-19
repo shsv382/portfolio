@@ -1,19 +1,21 @@
+@import "color-scheme";
+
 * {
   box-sizing: border-box;
 }
 
 .App {
   text-align: center;
-  color: lightslategrey;
+  color: $rich-black-fogra;
 }
 
 body {
   font-family: 'Jura', sans-serif;
+  font-weight: 500;
   padding: 20px 60px;
-  font-size: 125%;
 }
 
 a {
-  color: lightslategrey;
+  color: $caribbean-green;
   text-decoration: none;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import './assets/fonts/Jura-VariableFont_wght.ttf';
 
 import Header from './components/header/header.component';
