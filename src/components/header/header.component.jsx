@@ -5,7 +5,9 @@ import HeaderContainer from "../header-container/header-container.component";
 
 const Header = () => {
     return (
-        <HeaderContainer />
+        <div className="header">
+            <HeaderContainer />
+        </div>
     )
 }
 

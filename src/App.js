@@ -9,6 +9,12 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div className='content'>
+        <div className='site_images_box'>
+          <img alt="laptop" src='./images/laptop.png' />
+          <img alt="phone" src='./images/phone.png' />
+        </div>
+      </div>
     </div>
   );
 }
