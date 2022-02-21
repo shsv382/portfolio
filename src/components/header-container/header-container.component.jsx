@@ -1,12 +1,14 @@
 import React from "react";
 import './header-container.styles.scss';
 
+import { Link } from "react-router-dom";
+
 const HeaderContainer = () => {
     return (
-        <div class="header-container">
-            <a class="header-container-link" href="#">Обо мне</a>
-            <a class="header-container-link" href="#">Портфолио</a>
-            <a class="header-container-link" href="#">Контакты</a>
+        <div className="header-container">
+            <Link className="header-container-link" to="about">Обо мне</Link>
+            <Link className="header-container-link" to="portfolio">Портфолио</Link>
+            <Link className="header-container-link" to="contact">Контакты</Link>
         </div>
     )
 }
