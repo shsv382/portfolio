@@ -21,6 +21,8 @@ const Contact = () => {
                         <img alt="whatsapp" src='images/contact-whatsapp.png' />
                     </a>
                 </li>
+            </ul>
+            <ul className='messengers'>
                 <li>
                     <a href='https://t.me/sergy_shaby'>
                         <img alt="telegram" src='images/contact-telegram.png' />
