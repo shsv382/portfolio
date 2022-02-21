@@ -1,5 +1,10 @@
 export const portfolioList = [
     {
+        url: "https://crwn-clothing-1991.herokuapp.com",
+        header: "CRWN-Clothing",
+        description: "текущий проект для изучения всех новых фишек ReactJS. Размещен на Heroku, поэтому требует пару секунд на загрузку!"
+    },
+    {
         url: "https://github.com/shsv382",
         header: "Мой профиль на Github",
         description: "там весь мой путь с 2016 года по сегодняшний день. Большинство проектов можно посмотреть через github-pages"
@@ -8,11 +13,6 @@ export const portfolioList = [
         url: "https://leetcode.com/shsv382/",
         header: "Мой профиль на LeetCode",
         description: "это про умение решать алгоритмические задачки"
-    },
-    {
-        url: "https://crwn-clothing-1991.herokuapp.com",
-        header: "CRWN-Clothing",
-        description: "текущий проект для изучения всех новых фишек ReactJS. Размещен на Heroku, поэтому требует пару секунд на загрузку!"
     }, 
     {
         url: "http://www.freelancify.com/",
