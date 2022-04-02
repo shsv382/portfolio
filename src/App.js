@@ -7,7 +7,7 @@ import About from './pages/about/about.component';
 import Portfolio from './pages/portfolio/portfolio.component';
 import Contact from './pages/contacts/contact.component';
 
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route
             exact  
             path='/'
-            component={() => (<Redirect to="/about"/>)}
+            component={About}
           />
           <Route 
             exact
