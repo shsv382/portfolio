@@ -1,8 +1,13 @@
 export const portfolioList = [
     {
+        url: "https://samadesogascrum.herokuapp.com",
+        header: "Valuehut",
+        description: "текущий проект на стадии окончания разработки - сайт компании по продаже тренингов по Agile и Scrum"
+    },
+    {
         url: "https://crwn-clothing-1991.herokuapp.com",
         header: "CRWN-Clothing",
-        description: "текущий проект для изучения всех новых фишек ReactJS. Размещен на Heroku, поэтому требует пару секунд на загрузку!"
+        description: "проект для изучения всех новых фишек ReactJS. Размещен на Heroku, поэтому требует пару секунд на загрузку!"
     },
     {
         url: "https://github.com/shsv382",
