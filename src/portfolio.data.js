@@ -1,6 +1,6 @@
 export const portfolioList = [
     {
-        url: "https://samadesogascrum.herokuapp.com",
+        url: "https://https://valuehut.vercel.app",
         header: "Valuehut",
         description: "текущий проект на стадии окончания разработки - сайт компании по продаже тренингов по Agile и Scrum"
     },
