@@ -1,14 +1,24 @@
 export const portfolioList = [
     {
-        url: "https://valuehut.vercel.app",
-        header: "Valuehut",
-        description: "текущий проект на стадии окончания разработки - сайт компании по продаже тренингов по Agile и Scrum"
+        url: "https://fstravel.com/",
+        header: "FUN&SUN",
+        description: "сайт туроператора Fun&Sun (TUI)"
     },
     {
-        url: "https://crwn-clothing-1991.herokuapp.com",
-        header: "CRWN-Clothing",
-        description: "проект для изучения всех новых фишек ReactJS. Размещен на Heroku, поэтому требует пару секунд на загрузку!"
+        url: "https://fsego.com/",
+        header: "Fsego",
+        description: "маркетплейс впечатлений от туроператора FUN&SUN"
     },
+    {
+        url: "https://valuehut.co",
+        header: "Valuehut",
+        description: "сайт компании по продаже тренингов по Agile и Scrum"
+    },
+    // {
+    //     url: "https://crwn-clothing-1991.herokuapp.com",
+    //     header: "CRWN-Clothing",
+    //     description: "проект для изучения всех новых фишек ReactJS. Размещен на Heroku, поэтому требует пару секунд на загрузку!"
+    // },
     {
         url: "https://github.com/shsv382",
         header: "Мой профиль на Github",

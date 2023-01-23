@@ -11,7 +11,7 @@ const About = () => {
     }
     
     const yearsOldInWords = (years) => {
-        if (years >= 10 && years <= 20) {
+        if (years >= 5 && years <= 20) {
             return 'лет'
         } else if (years % 10 === 1) {
             return 'год'
@@ -70,7 +70,7 @@ const About = () => {
                 <h1>Ну и немного личного - с кем вы имеете дело 😉</h1>
                 <ul className="skills">
                     <li>
-                        Меня зовут Сергей Шабанов, мне {`${yearsOld()} ${yearsOldInWords(yearsOld)}`}
+                        Меня зовут Сергей Шабанов, мне {`${yearsOld()} ${yearsOldInWords(yearsOld())}`}
                     </li>
                     <li>
                         Мое хобби - фотография (заносим в копилку скиллов <b>Adobe Photoshop</b>)
